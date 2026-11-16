@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mis Gastos · Política de privacidad</title>
+<style>
+  :root { --bg:#fff; --text:#16181d; --muted:#5b6170; --line:#e7e9ee; --accent:#ec0000; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1115; --text:#e8eaed; --muted:#9aa0aa; --line:#262a33; --accent:#ff4d4d; } }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:28px; margin:0 0 4px; } h2 { font-size:19px; margin-top:32px; border-top:1px solid var(--line); padding-top:20px; }
+  .muted { color:var(--muted); } a { color:var(--accent); } code { font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad</h1>
+  <p class="muted">Mis Gastos · Última actualización: 15 de noviembre de 2026</p>
+
+  <p>Mis Gastos es una aplicación <strong>de uso personal y no comercial</strong> que ayuda a su propio usuario
+  a llevar el control de los consumos de sus tarjetas de crédito. No es un servicio público, no tiene
+  publicidad y no vende ni comparte datos.</p>
+
+  <h2>1. Qué datos usa</h2>
+  <p>Con la autorización expresa del usuario, la aplicación accede a su cuenta de Gmail con el permiso
+  de <strong>solo lectura</strong> (<code>https://www.googleapis.com/auth/gmail.readonly</code>) y procesa
+  únicamente los avisos de consumo enviados por el banco emisor de la tarjeta. De esos avisos extrae:</p>
+  <ul>
+    <li>fecha, comercio, monto, moneda y cantidad de cuotas del consumo;</li>
+    <li>los <strong>últimos 4 dígitos</strong> de la tarjeta (nunca el número completo).</li>
+  </ul>
+  <p>No guarda el contenido de los mails, no lee otros mensajes con fines distintos de detectar esos avisos,
+  no envía, borra ni modifica correos y no accede a contactos, archivos ni a otros servicios de Google.</p>
+
+  <h2>2. Dónde se guardan</h2>
+  <p>Los datos se almacenan en un servidor controlado exclusivamente por el propio usuario, accesible solo
+  desde sus dispositivos mediante una red privada cifrada y protegido con PIN. No se suben a servicios de terceros.</p>
+
+  <h2>3. Con quién se comparten</h2>
+  <p>Con nadie. Los datos no se venden, no se transfieren, no se usan para publicidad ni para evaluar crédito,
+  y no se utilizan para entrenar modelos de inteligencia artificial. Las notificaciones al celular viajan
+  cifradas de punta a punta a través del servicio de notificaciones del sistema operativo.</p>
+
+  <h2>4. Uso limitado de datos de Google</h2>
+  <p>El uso y la transferencia de la información recibida de las APIs de Google por parte de Mis Gastos
+  cumplen con la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Datos
+  del Usuario de los Servicios de API de Google</a>, incluidos los requisitos de Uso Limitado.</p>
+
+  <h2>5. Conservación y borrado</h2>
+  <p>Los datos se conservan mientras el usuario use la aplicación. El usuario puede borrar cualquier consumo
+  desde la propia aplicación, eliminar toda la base de datos y revocar el acceso a Gmail en cualquier momento
+  desde <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>6. Seguridad</h2>
+  <p>Acceso de solo lectura, conexión cifrada (HTTPS), PIN con hash y bloqueo por intentos fallidos,
+  servidor sin puertos abiertos a internet y actualizaciones de seguridad automáticas.</p>
+
+  <h2>7. Contacto</h2>
+  <p>Consultas sobre esta política: abrí una consulta en
+  <a href="https://github.com/Rexes-restoftheday/Rexes.github.io/issues">github.com/Rexes-restoftheday/Rexes.github.io/issues</a>.</p>
+</main>
+</body>
+</html>
